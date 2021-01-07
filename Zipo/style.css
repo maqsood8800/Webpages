@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin-right: 80px;
+    margin-left: 80px;
+
+}
+
+.logo {
+    margin-top: 25px;
+    width: 120px;
+
+}
+
+.header-text {
+    max-width: 450px;
+    margin-top: 150px;
+}
+
+h1 {
+    font-size: 34px;
+    margin-top: 60px;
+}
+
+p {
+    font-size: 18px;
+    color: #777;
+    line-height: 18px;
+    text-align: left;
+
+}
+
+.square {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background: #e2904a;
+    margin: 25px 0;
+}
+
+.same-btn {
+    padding: 16px 45px;
+    background: transparent;
+    border: 2px solid #e2904a;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #777;
+    cursor: pointer;
+}
+
+.same-btn:hover {
+    color: black;
+    border-color: crimson;
+
+}
+
+.header-text button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.line-1 {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background: #e2904a;
+
+}
+
+.line-2 {
+    height: 2px;
+    width: 100px;
+    display: inline-block;
+    background: #e2904a;
+
+}
+
+.line-3 {
+    height: 2px;
+    width: 80px;
+    display: inline-block;
+    background: #e2904a;
+
+}
+
+.line {
+    line-height: 10px;
+    margin-top: 30px;
+}
+
+#sideNav {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    right: -300px;
+    top: 0;
+    background: #e2904a;
+    z-index: 2;
+    transition: .5s;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: dimgray;
+}
+
+
+#menuBtn {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+#about,
+#offer {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fbf2eb;
+
+}
+
+.about-left-col {
+    flex-basis: 50%;
+
+}
+
+.about-left-col img {
+    width: 100%;
+}
+
+.about-right-col {
+    flex: 50%;
+    height: 600px;
+    text-align: right;
+
+
+}
+
+.about-text {
+    max-width: 600px;
+    margin-right: 100px;
+    display: inline-block;
+
+}
+
+.about-text h2 {
+    margin: 30px 0 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.about-text h3 {
+
+    font-size: 20px;
+    font-style: italic;
+    color: #777;
+}
+
+.about-text p {
+    text-align: right;
+}
+
+
+
+
+/*---------------features----------*/
+
+#features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fbf2eb;
+}
+
+.features-row {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.features-col {
+    flex: 30%;
+    text-align: center;
+}
+
+.features-col img {
+    width: 100px;
+}
+
+.features-col p {
+    text-align: center;
+}
+
+.features-col h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.features-btn {
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.features-btn .line {
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+/*-----------------cources --------------*/
+#cources {
+    padding: 100px 0;
+    background-color: #fbf2eb;
+
+}
+
+.courses-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cources-right-col {
+    flex-basis: 50%;
+}
+
+.cources-right-col img {
+    width: 100%;
+}
+
+.cources-left-col {
+    flex-basis: 50%;
+
+}
+
+.cource-text {
+    max-width: 600px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.cource-text button {
+    margin: 30px 0;
+}
+
+/*/--------------------Offers----------*/
+.about-text button {
+    margin-top: 30px;
+}
+
+/*--------------contact-------*/
+.container-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-left-col {
+    flex-basis: 50%;
+}
+
+.contact-right-col {
+    flex-basis: 50%;
+}
+
+.contact-right-col img {
+    width: 100%;
+}
+
+form {
+    max-width: 550px;
+    margin: 30px 0;
+}
+
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    box-shadow: none;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid #e2904a;
+}
+
+.btn-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn-box button {
+    flex-basis: 48%;
+    padding: 18px 0;
+
+}
+
+#contact {
+    background-color: #fbf2eb;
+}
+
+
+#footer {
+    padding: 50px 0 40px;
+    background-color: #fbf2eb;
+
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #e2904a;
+
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-col {
+    flex-basis: 50%;
+    margin-top: 50px;
+}
+
+.footer-right-col {
+    flex-basis: 20%;
+}
+
+.footer-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bottom-titles h4 {
+    color: #e2904a;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-titles small {
+    font-size: 14px;
+    color: #777;
+}
+
+.footer-logo-btn {
+    align-items: center;
+    display: flex;
+    margin: 20px 30px;
+}
+
+.footer-logo-btn img {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: -25px;
+}
+
+.copyrigh {
+    margin-top: 50px;
+    margin-bottom: -50px;
+    background-color: #000;
+}
+
+.copyrigh p {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+/*--------------social icons------*/
+.social-icons {
+    width: 40px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.social-icons img {
+    margin-bottom: 20px;
+    width: 25px;
+    display: block;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+
+
+/*---------------------media query----------------*/
+@media only screen and (max-width: 770px) {
+    #header {
+        background-image: none;
+        background-color: #fbf2eb;
+
+    }
+
+    .container {
+        margin-right: 40px;
+        margin-left: 40px;
+
+    }
+
+    .logo {
+        margin-top: 20px;
+        width: 90px;
+
+    }
+
+    .header-text {
+
+        margin-top: 90px;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        color: #777;
+        line-height: 18px;
+        text-align: left;
+
+    }
+
+    #menuBtn {
+        width: 25px;
+        height: 20px;
+        right: 40px;
+    }
+
+    .same-btn {
+        padding: 11px 26px;
+        font-size: 12px;
+
+    }
+
+    .social-icons img {
+
+        width: 18px;
+        margin: 0 auto 20px;
+
+    }
+
+    .about-left-col,
+    .about-right-col {
+        flex-basis: 100%;
+
+    }
+
+    .about-text {
+
+        margin: 50px 50px 0;
+        display: inline-block;
+        font-size: 16px;
+
+    }
+
+    .about-text h2 {
+        font-size: 18px;
+    }
+
+    .about-text h3 {
+        font-size: 16px;
+    }
+
+    .features-col {
+        flex: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .cources-left-col {
+        flex-basis: 100%;
+
+    }
+
+    .cources-right-col {
+        flex-basis: 100%;
+        margin-top: 50px;
+
+    }
+
+    .cource-text {
+
+        margin-left: 50px;
+    }
+
+    .cource-text p {
+        font-size: 15px;
+    }
+    .contact-left-col, .contact-right-col{
+    flex-basis: 100%;
+}
+    .contact-right-col{
+        margin-top: 50px;
+    }
+    .footer-left-col, .footer-left-col {
+    flex-basis: 100%;
+   
+}
+    .bottom-titles{
+        flex-basis: 50%;
+        margin-top: 20px;
+    }
+
+
+.footer-logo-btn img {
+    width: 100px;
+    margin: 0 70px;
+    margin-bottom: -20px;
+   
+}
+    .footer-right-col button{
+        margin: 0 85px;
+        padding: 10px 40px;
+    }
+    .copyrigh p {
+   
+    font-size: 12px;
+}
+
+    
+
+
+
+
+
+
+
+}
